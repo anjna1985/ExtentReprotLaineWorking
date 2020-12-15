@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="1" failed="2" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-15T07:58:05 EST" name="Suite" finished-at="2020-12-15T07:58:06 EST" duration-ms="826">
+    <groups>
+    </groups>
+    <test started-at="2020-12-15T07:58:05 EST" name="Test" finished-at="2020-12-15T07:58:06 EST" duration-ms="826">
+      <class name="testCases.TestSuite">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:testCases.TestSuite@1fe20588]" started-at="2020-12-15T07:58:05 EST" name="setReport" finished-at="2020-12-15T07:58:05 EST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method signature="doCustomerReg()[pri:0, instance:testCases.TestSuite@1fe20588]" started-at="2020-12-15T07:58:05 EST" name="doCustomerReg" finished-at="2020-12-15T07:58:05 EST" duration-ms="15" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Customer Reg Test Failed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Customer Reg Test Failed
+at org.testng.Assert.fail(Assert.java:99)
+at testCases.TestSuite.doCustomerReg(TestSuite.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doCustomerReg -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.TestSuite@1fe20588]" started-at="2020-12-15T07:58:05 EST" name="tearDown" finished-at="2020-12-15T07:58:06 EST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doCustomerReg status=FAILURE method=TestSuite.doCustomerReg()[pri:0, instance:testCases.TestSuite@1fe20588] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="doLogin()[pri:0, instance:testCases.TestSuite@1fe20588]" started-at="2020-12-15T07:58:06 EST" name="doLogin" finished-at="2020-12-15T07:58:06 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.TestSuite@1fe20588]" started-at="2020-12-15T07:58:06 EST" name="tearDown" finished-at="2020-12-15T07:58:06 EST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doLogin status=SUCCESS method=TestSuite.doLogin()[pri:0, instance:testCases.TestSuite@1fe20588] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="doUserReg()[pri:0, instance:testCases.TestSuite@1fe20588]" started-at="2020-12-15T07:58:06 EST" name="doUserReg" finished-at="2020-12-15T07:58:06 EST" duration-ms="4" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[User Reg Test Failed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: User Reg Test Failed
+at org.testng.Assert.fail(Assert.java:99)
+at testCases.TestSuite.doUserReg(TestSuite.java:56)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doUserReg -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.TestSuite@1fe20588]" started-at="2020-12-15T07:58:06 EST" name="tearDown" finished-at="2020-12-15T07:58:06 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doUserReg status=FAILURE method=TestSuite.doUserReg()[pri:0, instance:testCases.TestSuite@1fe20588] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="isSkip()[pri:0, instance:testCases.TestSuite@1fe20588]" started-at="2020-12-15T07:58:06 EST" name="isSkip" finished-at="2020-12-15T07:58:06 EST" duration-ms="1" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipped]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipped
+at testCases.TestSuite.isSkip(TestSuite.java:70)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.TestSuite@1fe20588]" started-at="2020-12-15T07:58:06 EST" name="tearDown" finished-at="2020-12-15T07:58:06 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isSkip status=SKIP method=TestSuite.isSkip()[pri:0, instance:testCases.TestSuite@1fe20588] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testCases.TestSuite@1fe20588]" started-at="2020-12-15T07:58:06 EST" name="endReport" finished-at="2020-12-15T07:58:06 EST" duration-ms="528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- testCases.TestSuite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
